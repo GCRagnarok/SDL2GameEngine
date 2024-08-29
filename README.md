@@ -1,7 +1,7 @@
 # SDL2GameEngine
 
 ## Overview
-2D game engine utilizing an entity component system. Built with C++ and SDL2.
+2D game engine utilising an entity component system. Built with C++ and SDL2.
 
 ## Prerequisites
 - CMake 3.10 or higher
