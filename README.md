@@ -18,9 +18,9 @@
 1. Download the CMake installer from the [CMake website](https://cmake.org/download/).
 2. Open the downloaded `.dmg` file and drag the CMake application to your Applications folder.
 3. Open a terminal and run the following command to add CMake to your PATH:
-
-```sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install```
-
+```
+sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
+```
 ### Linux
 1. Install CMake using your package manager. For example, on Ubuntu:
 
