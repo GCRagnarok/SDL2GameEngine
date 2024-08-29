@@ -33,7 +33,8 @@ sudo apt-get install -y cmake
 
 Clone the project repository:
 ```
-git clone https://github.com/GCRagnarok/SDL2GameEngine.git cd SDL2GameEngine
+git clone https://github.com/GCRagnarok/SDL2GameEngine.git
+cd SDL2GameEngine
 ```
 ### Step 2: Install `vcpkg`
 
