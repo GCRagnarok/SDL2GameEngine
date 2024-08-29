@@ -96,7 +96,7 @@ cmake --build build
 ## Running the Project
 
 After building the project, you can open the solution file in Visual Studio:
-1. Navigate to the SDL2 Game Engine directory and copy the **'assets' folder to the build directory.**
+1. Navigate to the SDL2 Game Engine directory and copy the 'assets' folder to the build directory.
 2. While in the build directoy, open the `SDL2GameEngine.sln` file in Visual Studio.
 3. Set the startup project to `SDL2GameEngine` if it is not already set.
 4. Build the solution by selecting `Build > Build Solution` from the menu or pressing `Ctrl+Shift+B`.
