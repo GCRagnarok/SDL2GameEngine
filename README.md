@@ -33,6 +33,8 @@ sudo apt-get install -y cmake
 
 ### Step 1: Clone the Repository
 
+Using your preferred shell or command-line interface (CLI) (e.g., Git Bash, PowerShell, etc.):
+
 Clone the project repository:
 ```
 git clone https://github.com/GCRagnarok/SDL2GameEngine.git
