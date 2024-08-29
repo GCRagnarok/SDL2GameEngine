@@ -46,14 +46,20 @@ Clone the `vcpkg` repository and bootstrap it:
 
 #### On Unix-like systems (Linux, macOS, Git Bash on Windows):
 ```
-git clone https://github.com/microsoft/vcpkg.git cd vcpkg
+git clone https://github.com/microsoft/vcpkg.git
+```
+```
+cd vcpkg
 ```
 ```
 ./bootstrap-vcpkg.sh
 ```    
 #### On Windows Command Prompt or PowerShell:
 ```
-git clone https://github.com/microsoft/vcpkg.git cd vcpkg
+git clone https://github.com/microsoft/vcpkg.git
+```
+```
+cd vcpkg
 ```
 ```
 .\bootstrap-vcpkg.bat
