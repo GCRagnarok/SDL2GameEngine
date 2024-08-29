@@ -1,0 +1,11 @@
+#pragma once
+#include "TransformComponent.h"
+#include "SpriteComponent.h"
+#include "ColliderComponent.h"
+#include "TileComponent.h"
+#include "UILabelComponent.h"
+#include "AudioComponent.h"
+#include "Rigidbody2DComponent.h"
+#include "GameSpecific/PickupComponent.h"
+#include "GameSpecific/PlayerComponent.h"
+#include "GameSpecific/ScoreComponent.h"
