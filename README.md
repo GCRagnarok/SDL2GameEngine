@@ -23,55 +23,55 @@ sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
 ```
 ### Linux
 1. Install CMake using your package manager. For example, on Ubuntu:
-
-```sudo apt-get update```
-```sudo apt-get install -y cmake```
-
+```
+sudo apt-get update
+sudo apt-get install -y cmake
+```
 ## Setting Up the Project
 
 ### Step 1: Clone the Repository
 
 Clone the project repository:
-
-```git clone https://github.com/GCRagnarok/SDL2GameEngine.git cd SDL2GameEngine```
-
+```
+git clone https://github.com/GCRagnarok/SDL2GameEngine.git cd SDL2GameEngine
+```
 ### Step 2: Install `vcpkg`
 
 Clone the `vcpkg` repository and bootstrap it:
 
 #### On Unix-like systems (Linux, macOS, Git Bash on Windows):
-
-```git clone https://github.com/microsoft/vcpkg.git cd vcpkg ./bootstrap-vcpkg.sh```
-    
+```
+git clone https://github.com/microsoft/vcpkg.git cd vcpkg ./bootstrap-vcpkg.sh
+```    
 #### On Windows Command Prompt or PowerShell:
-
-```git clone https://github.com/microsoft/vcpkg.git cd vcpkg .\bootstrap-vcpkg.bat```
-
+```
+git clone https://github.com/microsoft/vcpkg.git cd vcpkg .\bootstrap-vcpkg.bat
+```
 ### Step 3: Install Dependencies
 
 Use `vcpkg` to install SDL2 and its extensions. `vcpkg` will download and manage these files for you:
-
-```./vcpkg install sdl2 sdl2-ttf sdl2-mixer sdl2-image```
-
+```
+./vcpkg install sdl2 sdl2-ttf sdl2-mixer sdl2-image
+```
 ### Step 4: Integrate `vcpkg` with CMake
 
 Integrate `vcpkg` with your project:
-
-```./vcpkg integrate install```
-
+```
+./vcpkg integrate install
+```
 ### Step 5: Configure the Project with CMake
 
 Navigate back to the project root directory and configure the project using CMake:
-
-```cd ..```
-```cmake -B build -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake```
-
+```
+cd ..
+cmake -B build -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake
+```
 ### Step 6: Build the Project
 
 Build the project using CMake:
-
-```cmake --build build```
-
+```
+cmake --build build
+```
 ## Running the Project
 
 After building the project, you can open the solution file in Visual Studio:
